@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins',sans-serif   ;
+
+}
+
+.header{
+    background-image:url("dark.jpg");
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    position: relative;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;       
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+ul li{
+list-style: none;
+display: inline-block;
+padding:8px 12px;
+position: relative;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:#d1dad1 ;
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition: 0.5 ease;
+    
+}
+
+ul li a:hover{
+    background-color: rgb(14, 153, 95);
+    color:rgb(214, 240, 16);
+    transition: 0.5 ease;
+  
+}
+
+ 
+.logo img{
+    float:left;
+    width:110px;
+    height:auto;
+}
+
+.main{
+    max-width: 1200px;
+    text-align: center;
+    /* margin:auto; */
+}
+
+
+
+.main ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.main ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.main ul li::after{
+    content:'';
+    width:0%
+    
+}
+
+/*origin*/
+
+.origin-body{
+    text-align: center;
+    color:#fff;
+    width:max-content;
+    position: absolute;
+    height:auto;
+    margin-top: 190px;
+
+}
+

@@ -1,0 +1,139 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:'Poppins',sans-serif   ;
+
+}
+
+.header{
+  background-image:url("sip.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  position: relative;
+}
+
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  min-height: 400px;       
+  margin-right: 60px;
+  font-size: 17px;
+}
+
+ul li{
+list-style: none;
+display: inline-block;
+padding:8px 12px;
+position: relative;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:#006400 ;
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition: 0.5 ease;
+    
+}
+
+ul li a:hover{
+    background-color: rgb(43, 189, 46);
+    color:black;
+    transition: 0.5 ease;
+  
+}
+ 
+.logo img{
+    float:left;
+    width:110px;
+    height:auto;
+}
+
+.main{
+    max-width: 1200px;
+
+}
+
+
+.main ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.main ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-flex;
+    font-size: 30px;
+    margin-top: 200px;
+    height: auto;
+    text-align: center;
+    margin-right: 50px;
+    max-width: max-content;
+    font-weight: bold;
+    color: #ffffff;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2e8e8a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(255, 255, 255);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown2 {
+    position: absolute;
+    display: inline-flex;
+    font-size: 20px;
+    margin-top: 450px;
+    height: auto;
+    text-align: center;
+    margin-right: 500px;
+    max-width: max-content;
+    font-weight: bold;
+    color: rgb(248, 120, 216);
+  }
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    font-size: small;
+  }
+  
+  .dropdown2:hover .dropdown-content2 {
+    display: inline-block;
+  }
+
+/*ingrediants-sip the purity*/
+
+.sipbody{
+    text-align: center;
+    color: #006400;
+    font-size: small;
+
+}
